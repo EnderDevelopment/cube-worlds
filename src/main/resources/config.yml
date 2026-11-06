@@ -1,0 +1,28 @@
+hub:
+  world: world
+  x: 0.5
+  y: 80.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+starting-balance: 100.0
+shop:
+  bread:
+    material: BREAD
+    price: 5.0
+    amount: 8
+  iron:
+    material: IRON_INGOT
+    price: 25.0
+    amount: 4
+  diamond:
+    material: DIAMOND
+    price: 250.0
+    amount: 1
+ranks:
+  default:
+    prefix: "[Player]"
+  vip:
+    prefix: "[VIP]"
+  mvp:
+    prefix: "[MVP]"

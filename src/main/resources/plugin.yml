@@ -1,0 +1,37 @@
+name: EnderNetwork
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+author: EnderDevelopment
+description: Cross-play network core with ranks, economy, shops, worlds and minigame queues.
+softdepend: [Geyser-Spigot, floodgate, ViaVersion, ViaBackwards]
+commands:
+  hub:
+    description: Teleport to the network hub.
+    usage: /hub
+  sethub:
+    description: Set the network hub.
+    usage: /sethub
+    permission: endernetwork.admin
+  balance:
+    description: Show your balance.
+    aliases: [bal, money]
+    usage: /balance
+  pay:
+    description: Pay another player.
+    usage: /pay <player> <amount>
+  rank:
+    description: Show or set a rank.
+    usage: /rank [player] [rank]
+  shop:
+    description: Browse or buy shop items.
+    usage: /shop [list|buy] [item]
+  worlds:
+    description: List available worlds.
+    usage: /worlds
+  world:
+    description: Teleport to or create a world.
+    usage: /world <name|create> [name]
+  game:
+    description: Join a minigame queue.
+    usage: /game <list|join|leave> [game]
